@@ -1,0 +1,9 @@
+tamanho = int(input())
+
+hrs = 0
+
+while tamanho <= 100:
+    tamanho = tamanho * 2
+    hrs += 1
+
+print(hrs)

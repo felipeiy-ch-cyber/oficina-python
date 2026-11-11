@@ -1,7 +1,5 @@
-alunos = int(input())
-soma = 0
-for i in range(alunos):
-    nota = float(input())
-    soma = soma + nota
-media = soma / alunos
-print(f"{media:.2f}")
+n = int(input("Quantas notas"))
+notas = []
+for i in range(n):
+    notas.append(float(input(Nota: )))
+print("Media:",sum(notas) / n, ".Maior:",max(notas))

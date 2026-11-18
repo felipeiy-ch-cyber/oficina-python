@@ -1,5 +1,7 @@
-mochila = ["Lapis","Mochila","borracha"]
-mochila[1]= "estojo"
-mochila.append("Regua")
-for f in mochila:  
-    print(f)
+mochila = ["Lapis","caderno","caderno"]
+pergunta = input()
+if pergunta in mochila: 
+    print("Ja esta na mochila")
+else:
+    mochila.append(pergunta)
+    print("Coloquei")
